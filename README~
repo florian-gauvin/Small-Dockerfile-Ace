@@ -10,3 +10,7 @@ This will launch the builder image of Apache Ace and create automatically the sm
 Apache Ace in it.
 Finally you will have a docker image named inaetics/ace-agent on your host, you can check by running the following command :
 "docker images"
+
+BE CAREFUL :
+-You need to have the same docker version than there is in the image, in the image I'm
+using the latest version of docker by running the following command : wget -qO- https://get.docker.com/ | sh
